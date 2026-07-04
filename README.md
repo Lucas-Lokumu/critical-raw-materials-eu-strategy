@@ -21,6 +21,12 @@ The objective is to assess which materials create the highest vulnerability for 
 
 To what extent does Europe’s energy transition create a new strategic dependency on critical raw materials?
 
+## Project scope
+
+The project does not cover all strategic raw materials listed by the European Union.
+
+Instead, it focuses on eight materials that are directly connected to the energy transition. This narrower scope allows for a clearer and more detailed analysis of the most relevant materials for batteries, electrification, renewable energy and hydrogen technologies.
+
 ## Methodology
 
 The project uses a vulnerability scoring framework based on five criteria:
@@ -33,7 +39,7 @@ The project uses a vulnerability scoring framework based on five criteria:
 
 Each material is scored from 1 to 5 for each criterion.
 
-The final score is calculated as:
+The final vulnerability score is calculated as:
 
 ```text
 Score = (Energy transition importance × 5)
@@ -41,10 +47,20 @@ Score = (Energy transition importance × 5)
       + (Processing concentration × 4)
       + (European dependency × 4)
       + (Substitution difficulty × 3)
+```
+
+The score is calculated out of 100.
+
+Vulnerability levels:
+
+- 80–100: Critical
+- 65–79: High
+- 50–64: Medium
+- Below 50: Low
 
 ## Results
 
-The scoring framework highlights two groups of materials:
+The scoring framework highlights two groups of materials.
 
 ### Critical vulnerability
 
@@ -94,3 +110,55 @@ Copper remains essential for electrification, but its vulnerability score is low
 - Processing and refining stages are often more concentrated than extraction.
 - Copper is essential for electrification but appears less vulnerable than battery and magnet-related materials.
 - Europe’s strategic challenge is industrial as much as geological.
+
+## Repository structure
+
+```text
+data/       Excel scoring table and source data
+reports/    Final report in PDF and DOCX format
+figures/    Charts used in the report
+sources/    Official source links
+```
+
+## Files
+
+The repository contains:
+
+- A scoring table with the five vulnerability criteria
+- A source data table based on official institutional reports
+- Visualisations of the vulnerability scores and risk profiles
+- A final academic report in French
+- Official source links
+
+## Sources
+
+The analysis is based on institutional sources:
+
+- Regulation (EU) 2024/1252 — Critical Raw Materials Act
+- European Commission — Study on the Critical Raw Materials for the EU 2023
+- U.S. Geological Survey — Mineral Commodity Summaries 2025
+- International Energy Agency — Global Critical Minerals Outlook 2025
+
+## Tools used
+
+- Excel / LibreOffice Calc
+- Vulnerability scoring framework
+- Data visualisation
+- Desk research based on official institutional reports
+
+## Limitations
+
+The scoring framework is not an absolute measurement of vulnerability. It is an analytical tool used to compare risk profiles across materials.
+
+Some limitations should be noted:
+
+- The scores simplify complex geopolitical and industrial realities.
+- Some materials, such as rare earth elements and platinum-group metals, group several metals with different supply-chain profiles.
+- Some European sourcing data are incomplete for certain materials.
+- The distinction between extraction and processing is essential, but not always equally documented across sources.
+
+## Author
+
+Lucas Lokumu  
+Master Économie Appliquée — IDEPP / CEPOPP  
+Université de Lille
